@@ -1,0 +1,2 @@
+## 1.http的get中第一个参数options中的host属性只能是'www.baidu.com', 前面不加任何协议名'http://'之类的
+## 2.http.get(options, function(res) { res.on('data', function(chunk) { chunk默认为buffer流, 但是加上字符串后变为可识别字符串. }); res.on('end', function() {}); })
